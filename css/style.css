@@ -179,7 +179,6 @@ body{
 
 .downloader{
     background: #adacac17;
-    position: ;
 }
 
 @media(max-width:1024px){
@@ -345,6 +344,7 @@ body{
 @media(max-width:690px){
     .left__title{
         text-align: center;
+        padding: 0 20px;
     }
 
     .left__suptitle{
@@ -360,11 +360,27 @@ body{
 
 }
 
-@media(max-width:480px){
+@media(max-width:426px){
     .left__title{
-        padding: 0 30px;
+        margin-right: 0;
+        padding: 0;
+    }
+
+    .left__suptitle{
+        font-size: 32px;
+    }
+
+   
+}
+
+@media(max-width:355px){
+
+
+    .left__suptitle{
+        font-size: 30px;
     }
 }
+
 
 
 
@@ -468,6 +484,54 @@ body{
     }
 }
 
+@media(max-width:430px){
+    .left__button{
+        flex-direction: row;
+      justify-content: center;
+    }
+
+    .left__button a{
+        padding: 15px 30px;
+    }
+    
+    .left__button a:last-child{
+        margin-left: 20px;
+        margin-top: 0;
+    }
+}
+
+@media(max-width:426px){
+    .left__button{
+        flex-direction: row;
+      justify-content: center;
+    }
+
+    .left__button a{
+        padding: 15px 20px;
+    }
+    
+    .left__button a:last-child{
+        margin-left: 10px;
+        margin-top: 0;
+    }
+}
+@media(max-width:355px){
+    .left__button{
+        flex-direction: row;
+      justify-content: center;
+    }
+
+    .left__button a{
+        padding: 15px 10px;
+    }
+    
+    .left__button a:last-child{
+        margin-left: 10px;
+        margin-top: 0;
+    }
+}
+
+
 
 
     .left__button a:hover{
@@ -537,15 +601,10 @@ body{
 
 @media(max-width:690px){
     .downloader__right img{
-        max-width: 90%;
+        max-width:320px;
+        justify-content:center;
     }
 }
 
-@media(max-width:480px){
-    .downloader__right img{
-        max-width: 90%;
-        justify-content: center;
-    }
-}
 
 
