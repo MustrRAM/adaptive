@@ -608,3 +608,299 @@ body{
 
 
 
+/* Input */
+
+.input{
+    margin-top: 86px;
+    margin-bottom: 20px;
+}
+
+@media(max-width:426px){
+  
+    .input{
+        display: flex;
+        justify-content: center;
+    }
+}
+
+.input__holder{
+    background: rgba(117, 191, 122, 1);
+    border-radius: 10px;
+    padding: 50px 70px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@media(max-width:1250px){
+  
+.input__holder{
+    padding: 25px 35px;
+    }
+}
+
+
+@media(max-width:690px){
+    .input__holder{
+        flex-direction: column;
+        align-items: center;
+        padding: 0;
+    }
+}
+
+@media(max-width:426px){
+    .input__holder{
+        flex-direction: column;
+        align-items: start;
+        padding:15px 25px;
+
+    }
+}
+
+@media(max-width:375px){
+    .input__holder{
+        flex-direction: column;
+        align-items: start;
+        padding:15px 25px;
+        width: 260px;
+    }
+}
+
+
+
+.input__title{
+    color: #fff;
+
+    font-weight: 600;
+    font-size: 24.6006px;
+    line-height: 28px;
+
+}
+
+@media(max-width:1250px){
+    .input__title{
+        font-size: 20px;
+    }
+}
+
+@media(max-width:1200px){
+    .input__title{
+        font-size: 18px;
+    }
+}
+
+@media(max-width:970px){
+    .input__title{
+        font-size: 12px;
+        line-height: 18px;
+    }
+}
+@media(max-width:690px){
+    .input__title{
+        margin-top: 20px;
+
+        font-size: 24px;
+        line-height: 20px;
+        text-align: left;
+    }
+}
+
+
+.input__block{
+    display: flex;
+    align-items: center;
+}
+
+@media(max-width:690px){
+    .input__block{
+        flex-direction: column;
+        margin-top: 25px;
+    }
+}
+
+
+.inputer{
+    padding:30px 0px 20px 30px;
+    border-radius: 5px;
+    border: none;
+
+    width: 490px;
+}
+
+.inputer::placeholder{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 0px;
+    color:  #DADADA;;
+}
+
+@media(max-width:1390px){
+    .inputer{
+        padding:20px 0px 10px 15px;
+        width: 400px;
+    }
+}
+
+@media(max-width:1200px){
+    .inputer{
+        width: 300px;
+        padding:16px 0px 4px 15px;
+    }
+
+    .inputer::placeholder{
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 0px;
+        color:  #DADADA;;
+    }
+}
+
+@media(max-width:860px){
+    .inputer{
+        width: 220px;
+        padding:16px 0px 4px 15px;
+    }
+}
+
+@media(max-width:770px){
+    .inputer{
+        width: 150px;
+        padding:16px 0px 4px 15px;
+    }
+}
+
+@media(max-width:690px){
+    .inputer{
+        width:440px;
+        padding:16px 0px 10px 15px;
+    }
+
+    .inputer::placeholder{
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 0px;
+        color:  #DADADA;
+        text-align: center;
+    }
+}
+
+@media(max-width:671px){
+    .inputer{
+        width:350px;
+        padding:16px 0px 10px 0px;
+    }
+
+    .inputer::placeholder{
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 0px;
+        color:  #DADADA;
+        text-align: center;
+    }
+}
+
+@media(max-width:523px){
+    .inputer{
+        width:300px;
+        padding:20px 0px 15px 0px;
+    }
+
+    .inputer::placeholder{
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 0px;
+        color:  #DADADA;
+        text-align: center;
+    }
+}
+@media(max-width:375px){
+    .inputer{
+        width:250px;
+        padding:20px 0px 15px 0px;
+    }
+
+    .inputer::placeholder{
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 0px;
+        color:  #DADADA;
+        text-align: center;
+    }
+}
+
+.input__button{
+    padding: 33px 50px;
+    text-transform: uppercase;
+    border-radius: 5px;
+    background: #000;
+    color: #fff;
+
+    font-weight: 800;
+    font-size: 22px;
+    line-height: 0px;
+
+    margin-left: 10px;
+
+    transition: transform 0.3s;
+}
+
+    .input__button:hover{
+        transform:scale(98%);
+    }
+
+    @media(max-width:1390px){
+        .input__button{
+            padding: 23px 32px;
+        }
+    }
+    
+    @media(max-width:1200px){
+        .input__button{
+            padding: 18px 28px;
+            font-size: 18px;
+        }
+    }
+    
+    @media(max-width:970px){
+        .input__button{
+            padding: 18px 16px;
+            font-size: 16px;
+        }
+    }
+    @media(max-width:770px){
+        .input__button{
+            padding: 18px 10px;
+            font-size: 14px;
+        }
+    }
+
+    @media(max-width:690px){
+        .input__button{
+            margin-top: 20px;
+            margin-left: 0;
+            margin-bottom: 20px;
+
+            padding: 30px 48px;
+
+            font-size: 26px;
+        }
+    }
+
+    
+    @media(max-width:426px){
+        .input__button{
+            margin-top: 20px;
+            margin-left: 0;
+            margin-bottom: 20px;
+
+            padding: 27px 78px;
+
+            font-size: 18px;
+        }
+    }
+    @media(max-width:375px){
+        .input__button{
+            padding: 27px 55px;
+        }
+    }
